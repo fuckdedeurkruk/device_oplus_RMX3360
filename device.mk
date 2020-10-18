@@ -24,6 +24,10 @@ $(call inherit-product, device/oplus/sm8350-common/common.mk)
 OPLUS_DEVICE_USES_ST21_NFC := true
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-aosp
+
+# Overlays
 PRODUCT_PACKAGES += \
     FrameworksResDevice \
     SettingsProviderResDevice \
