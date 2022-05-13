@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2022 Project Elixir
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX3360.mk
+    $(LOCAL_DIR)/aosp_RMX3360.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_RMX3360-user \
-    lineage_RMX3360-userdebug \
-    lineage_RMX3360-eng
+    aosp_RMX3360-user \
+    aosp_RMX3360-userdebug \
+    aosp_RMX3360-eng
